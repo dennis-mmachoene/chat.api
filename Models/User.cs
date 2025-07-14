@@ -13,7 +13,7 @@ public class User : IdentityUser
     [MaxLength(100)]
     public string LastName { get; set; }
     public string? ProfilePictureUrl { get; set; }
-    public bool isOnline { get; set; }
+    public bool IsOnline { get; set; }
     public DateTime LastSeen { get; set; } = DateTime.UtcNow;
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
